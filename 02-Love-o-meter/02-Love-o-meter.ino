@@ -23,7 +23,7 @@ void loop() {
 
   // Convierte el voltaje a temperatura en grados
   // float temperature = (voltage - 0.5)*100.0;
-  float temperature = 34.0*(voltage - 5.0)+125.0;
+  float temperature = 35.0*(voltage - 5.0)+125.0;
   Serial.print(", degrees C: ");
   Serial.println(temperature);
 
